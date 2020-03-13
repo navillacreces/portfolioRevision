@@ -4,8 +4,7 @@
 
 .hero-image{
     border: 5px solid black;
-    
-    background-image: url("/images/new.jpg");
+    background-image: url("./images/new.jpg");
     height: 80%;
     background-position: center;
     background-repeat: no-repeat;
@@ -183,7 +182,7 @@ a:link{
 
     .hero-image{
        margin-left: 9px;
-       background-image: url(/images/travel.jpg);
+       background-image: url(./images/travel.jpg);
     }
 
     .pop-menu-btn{
@@ -395,7 +394,7 @@ a:link{
     .hero-image{
         border: 5px solid black;
         
-        background-image: url("/images/machero.jpg");
+        background-image: url("./images/machero.jpg");
         margin-left: auto;
         margin-right: auto;
         width: 100%;
