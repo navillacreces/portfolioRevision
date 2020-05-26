@@ -26,6 +26,18 @@ header{
     position: relative;
     margin-top: 5px;
 }
+.project-stack{
+  display: flex;
+  justify-content: center;
+}
+
+.front-end-list,.back-end-list{
+
+  font-family: 'Raleway', sans-serif;
+  line-height: 25px;
+  list-style-type:none ;
+  font-weight: normal;
+}
 
 
 .nav-flex{
@@ -66,8 +78,8 @@ h1{
     padding-right: 15px;
    
   }
-
-.p1-image,.p2-image,.p3-image{
+/* .p3-image */
+.p1-image,.p2-image{
     height: auto;
     width: 65%;
     margin-left: auto;
@@ -75,6 +87,8 @@ h1{
     border: 1px black solid;
     border-radius: 5%;
 }
+
+
 
 #menuToggle {
     display: flex;
@@ -226,6 +240,8 @@ p{
     font-size: 15px;
     
 }
+
+
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
