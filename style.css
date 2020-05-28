@@ -102,8 +102,10 @@ h1{
   }
 
   .pop-menu-btn{
-      color: #ffffff;
+      color: black;
       font-size: 19px;
+      background: none;
+      border: none;
   }
   
   #menuToggle input
@@ -171,7 +173,7 @@ h1{
     margin: -50px 0 0 -50px;
     padding: 50px;
     padding-top: 125px;
-    background-color: black;
+    background-color: #FFFFFF;
     -webkit-font-smoothing: antialiased;
     transform-origin: 0% 0%;
     transform: translate(-100%, 0);
@@ -182,6 +184,7 @@ h1{
   {
     padding: 10px 0;
     transition-delay: 2s;
+    
     
   }
   
