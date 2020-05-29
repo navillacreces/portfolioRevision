@@ -1,7 +1,7 @@
 function clicksContact(){
     $("#contact-button").click(function(){
         $("body,html").animate({
-            scrollTop: $(".form-flex").offset().top
+            scrollTop: $(".footer-container").offset().top
         }, 800);
 });
 }
@@ -13,7 +13,7 @@ function clicksBio(){
         $('.hero-text').addClass("w3-animate-opacity");
         $('.hero-text').css("visibility","visible");
         
-      //  $(".hero-image").css("visibility", "hidden");
+      
     });
 
 }
@@ -50,7 +50,7 @@ function clicksPopContacts(){
     
     $("#pop-contacts").click(function(){
         $("body,html").animate({
-            scrollTop: $(".form-flex").offset().top
+            scrollTop: $(".footer-container").offset().top
         }, 800);
     });
 }

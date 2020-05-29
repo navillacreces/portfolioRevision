@@ -190,12 +190,20 @@ h1{
     color: black;
 }
 
-.p1-image,.p2-image{
+.p2-image{
     height: auto;
     width: 65%;
     margin-left: auto;
     margin-right: auto;
     border: 1px black solid;
+    border-radius: 5%;
+}
+.p1-image{
+  height: auto;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px white solid;
     border-radius: 5%;
 }
 
@@ -213,6 +221,16 @@ h1{
     padding-top: 30px;
     
 }
+
+.project1{
+  background-color: black;
+  color: white;
+}
+.project1 a:link{
+  color: white;
+}
+
+
 h6{
     text-align: center;
     font-family: 'Roboto', sans-serif;
