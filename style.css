@@ -78,15 +78,6 @@ h1{
     padding-right: 15px;
    
   }
-/* .p3-image */
-.p1-image,.p2-image{
-    height: auto;
-    width: 65%;
-    margin-left: auto;
-    margin-right: auto;
-    border: 1px black solid;
-    border-radius: 5%;
-}
 
 
 
@@ -199,13 +190,21 @@ h1{
     color: black;
 }
 
-.p1-image,.p2-image,.p3-image{
+.p1-image,.p2-image{
     height: auto;
     width: 65%;
     margin-left: auto;
     margin-right: auto;
     border: 1px black solid;
     border-radius: 5%;
+}
+
+.p3-image{
+  height: auto;
+  max-width: 30%;
+  margin: auto;
+  border: 1px black solid;
+  border-radius: 10%;
 }
 
 .project1,.project2,.project3{
