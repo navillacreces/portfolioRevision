@@ -13,10 +13,13 @@ header{
         
     display: flex;
     justify-content: center;
+    
     margin-top: 10px;
     margin-bottom: 10px;
 
   }
+
+  
 
 .hero-image{
     border: 5px solid black;
@@ -284,6 +287,15 @@ footer a:link{
   text-align: center;
   margin-left:15px;
   margin-right: 15px;
+}
+
+footer a:visited, a:visited{
+  color: red;
+}
+
+.project-desc p{
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 
