@@ -14,23 +14,36 @@
   </head>
   <body>
     <header>
-      <h1>NV</h1>
+
+      <div class="header__left">
+        <nav>
+          <div id="menuToggle">
+            <input type="checkbox" />
+              <span></span>
+              <span></span>
+              <span></span>
+          <ul id="menu">
+            <li><button type="button" class="pop-menu-btn" id="pop-bio">Bio</button></li>
+            <li><button type="button" class="pop-menu-btn" id="pop-projects">Projects</button></li>
+            <li><button onclick="window.open('https://github.com/navillacreces', '_blank')" type="button" class="pop-menu-btn">GitHub</button></li>
+            <li><button type="button" class="pop-menu-btn" id="pop-contacts">Contact</button></li>
+          </ul>
+         </div>
+        </nav>
+      </div>
+      
+      <div class="header__center">
+        <h2>My Portfolio</h2>
+      </div>
+      <div class="header__right">
+       
+       
+    
+      </div>
+      
       
     </header>
-      <nav>
-        <div id="menuToggle">
-          <input type="checkbox" />
-            <span></span>
-            <span></span>
-            <span></span>
-        <ul id="menu">
-          <li><button type="button" class="pop-menu-btn" id="pop-bio">Bio</button></li>
-          <li><button type="button" class="pop-menu-btn" id="pop-projects">Projects</button></li>
-          <li><button onclick="window.open('https://github.com/navillacreces', '_blank')" type="button" class="pop-menu-btn">GitHub</button></li>
-          <li><button type="button" class="pop-menu-btn" id="pop-contacts">Contact</button></li>
-        </ul>
-       </div>
-      </nav>
+   
     
     <div class="nav-flex">
         <ul class="nav-bar">
@@ -101,7 +114,7 @@
           <h2>Search Giphy</h2>
           <div class="project-desc">
           <p>This app is for users who would like to search for GIFs from Giphy.com closer to there original size.
-            This app was inspired after a long serach for just the right GIF
+            This app was inspired after a long serach for just the right GIF.
           </p>
         </div>
           <p>
